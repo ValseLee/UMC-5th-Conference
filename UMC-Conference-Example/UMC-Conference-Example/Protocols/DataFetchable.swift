@@ -7,7 +7,9 @@
 
 import UIKit
 
-protocol DataFetchable<T> {
-  associatedtype T: Decodable
-  func fetchItems() async throws -> T
+protocol DataFetchable {
+  func fetchItems<T: Decodable>(
+    _ type: T.Type,
+    from url: Endpoint
+  ) async throws -> [T]
 }

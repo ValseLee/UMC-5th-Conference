@@ -8,15 +8,14 @@
 import Foundation
 
 enum Endpoint: String {
-  case fashionItem
-  case shopInfo
+  case fashionItems
+  case shopInfos
   
-  var urlEndpoint: URL? {
-    switch self {
-    case .fashionItem:
-      return URL(string: "https://my-json-server.typicode.com/ValseLee/UMC-5th-Conference/\(self.rawValue)")
-    case .shopInfo:
-      return URL(string: "https://my-json-server.typicode.com/ValseLee/UMC-5th-Conference/\(self.rawValue)")
-    }
+  private var baseUrl: String {
+    "https://my-json-server.typicode.com/ValseLee/UMC-5th-Conference/"
+  }
+  
+  public var url: URL? {
+    URL(string: "\(baseUrl)\(self.rawValue)")
   }
 }

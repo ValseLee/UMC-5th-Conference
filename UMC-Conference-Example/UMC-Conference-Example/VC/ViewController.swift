@@ -12,7 +12,7 @@ final class ViewController: UIViewController {
     case main
   }
   
-  internal let networkManager = NetworkManager<FashionItem>()
+  internal let networkManager = NetworkManager()
   private var collectionView: UICollectionView!
   private var dataSource: UICollectionViewDiffableDataSource<Section, FashionItem>!
   private var fashionItems: [FashionItem] = []
@@ -36,7 +36,11 @@ final class ViewController: UIViewController {
   private func fetchFashionItems() {
     fashionItemFetchTask = Task {
       do {
-        let result = try await networkManager.fetchItems()
+        let result = try await networkManager.fetchItems(
+          FashionItem.self,
+          from: .fashionItems
+        )
+        
         return result
         
       } catch {
@@ -69,7 +73,7 @@ final class ViewController: UIViewController {
     case .networkError:
       presentAlert(
         alertTitle: "네트워크 오류",
-        message: "네트워크 요청이 불안정합니다. 연결을 확인해 주세요",
+        message: "유효하지 않은 요청입니다!",
         buttonTitle: "네"
       )
     case .none:

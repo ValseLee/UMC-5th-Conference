@@ -7,17 +7,20 @@
 
 import Foundation
 
-struct NetworkManager<T: Decodable>: DataFetchable {
-  private let url = "https://my-json-server.typicode.com/ValseLee/UMC-5th-Conference/fashionItems"
-  
-  public func fetchItems() async throws -> [T] {
-    guard let url = URL(string: url) else { throw NetworkError.invalidUrl }
+struct NetworkManager: DataFetchable {
+  internal func fetchItems<T: Decodable>(
+    _ type: T.Type,
+    from endpoint: Endpoint
+  ) async throws -> [T] {
+    guard let url = endpoint.url else { throw NetworkError.invalidUrl }
     let (data, response) = try await URLSession.shared.data(from: url)
     guard
       let response = response as? HTTPURLResponse,
       response.statusCode == 200 else { throw NetworkError.networkError }
     
-    guard let result = try? JSONDecoder().decode([T].self, from: data) else { throw NetworkError.invalidDataFormat }
+    guard let result = try? JSONDecoder().decode([T].self, from: data) else {
+      throw NetworkError.invalidDataFormat
+    }
     
     return result
   }
