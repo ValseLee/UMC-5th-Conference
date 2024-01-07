@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E9D48662B4ADD5F00B9E71C /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9D48652B4ADD5F00B9E71C /* Endpoint.swift */; };
 		7EBC5F072B4A74F6008256AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC5F062B4A74F6008256AB /* AppDelegate.swift */; };
 		7EBC5F092B4A74F6008256AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC5F082B4A74F6008256AB /* SceneDelegate.swift */; };
 		7EBC5F0B2B4A74F6008256AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC5F0A2B4A74F6008256AB /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E9D48652B4ADD5F00B9E71C /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		7EBC5F032B4A74F6008256AB /* UMC-Conference-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UMC-Conference-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EBC5F062B4A74F6008256AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EBC5F082B4A74F6008256AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		7EBC5F232B4A8347008256AB /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				7E9D48652B4ADD5F00B9E71C /* Endpoint.swift */,
 				7EBC5F242B4A8357008256AB /* FlowLayout+Grid.swift */,
 			);
 			path = Utilities;
@@ -207,6 +210,7 @@
 				7EBC5F202B4A80F2008256AB /* FashionItem.swift in Sources */,
 				7EBC5F072B4A74F6008256AB /* AppDelegate.swift in Sources */,
 				7EBC5F252B4A8357008256AB /* FlowLayout+Grid.swift in Sources */,
+				7E9D48662B4ADD5F00B9E71C /* Endpoint.swift in Sources */,
 				7EBC5F092B4A74F6008256AB /* SceneDelegate.swift in Sources */,
 				7EBC5F282B4A83B6008256AB /* FashionItemCell.swift in Sources */,
 			);
