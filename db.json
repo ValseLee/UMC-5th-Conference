@@ -1,0 +1,64 @@
+{
+  "fashionItems": [
+    {
+      "name": "후드",
+      "category": "의류",
+      "size": null,
+      "imageUrl": "https://images.unsplash.com/photo-1680292783974-a9a336c10366?q=80&w=1894&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "name": "맨투맨",
+      "category": "의류",
+      "size": null,
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1675186049222-0b5018db6ce9?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "name": "셔츠",
+      "category": "의류",
+      "size": null,
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1673356302031-86c27e061153?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "name": "티셔츠",
+      "category": "의류",
+      "size": null,
+      "imageUrl": "https://images.unsplash.com/photo-1564584217132-2271feaeb3c5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "name": "블라우스",
+      "category": "의류",
+      "size": null,
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1675186049409-f9f8f60ebb5e?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "name": "캔버스",
+      "category": "신발",
+      "size": "240",
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1665664652418-91f260a84842?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "name": "나이키",
+      "category": "신발",
+      "size": "270",
+      "imageUrl": "https://images.unsplash.com/photo-1543508282-6319a3e2621f?q=80&w=1315&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D0"
+    },
+    {
+      "name": "구두",
+      "category": "신발",
+      "size": "270",
+      "imageUrl": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "name": "지갑",
+      "category": "액세서리",
+      "size": null,
+      "imageUrl": "https://images.unsplash.com/photo-1627123424574-724758594e93?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "name": "목걸이",
+      "category": "액세서리",
+      "size": null,
+      "imageUrl": "https://images.unsplash.com/photo-1635767798638-3e25273a8236?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+  ]
+}
